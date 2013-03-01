@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2581F35D16E15E1E00C5B391 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2581F35C16E15E1E00C5B391 /* UIKit.framework */; };
+		2581F35F16E15E1E00C5B391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2581F35E16E15E1E00C5B391 /* Foundation.framework */; };
+		2581F36116E15E1E00C5B391 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2581F36016E15E1E00C5B391 /* CoreGraphics.framework */; };
+		2581F36716E15E1E00C5B391 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2581F36516E15E1E00C5B391 /* InfoPlist.strings */; };
+		2581F36916E15E1E00C5B391 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2581F36816E15E1E00C5B391 /* main.m */; };
+		2581F36D16E15E1E00C5B391 /* BMWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2581F36C16E15E1E00C5B391 /* BMWAppDelegate.m */; };
+		2581F36F16E15E1E00C5B391 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2581F36E16E15E1E00C5B391 /* Default.png */; };
+		2581F37116E15E1E00C5B391 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2581F37016E15E1E00C5B391 /* Default@2x.png */; };
+		2581F37316E15E1E00C5B391 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2581F37216E15E1E00C5B391 /* Default-568h@2x.png */; };
+		2581F37616E15E1E00C5B391 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2581F37416E15E1E00C5B391 /* MainStoryboard_iPhone.storyboard */; };
+		2581F37916E15E1E00C5B391 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2581F37716E15E1E00C5B391 /* MainStoryboard_iPad.storyboard */; };
+		2581F37C16E15E1E00C5B391 /* BMWMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2581F37B16E15E1E00C5B391 /* BMWMasterViewController.m */; };
+		2581F37F16E15E1E00C5B391 /* BMWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2581F37E16E15E1E00C5B391 /* BMWDetailViewController.m */; };
+		2581F38716E15E1F00C5B391 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2581F38616E15E1F00C5B391 /* SenTestingKit.framework */; };
+		2581F38816E15E1F00C5B391 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2581F35C16E15E1E00C5B391 /* UIKit.framework */; };
+		2581F38916E15E1F00C5B391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2581F35E16E15E1E00C5B391 /* Foundation.framework */; };
+		2581F39116E15E1F00C5B391 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2581F38F16E15E1F00C5B391 /* InfoPlist.strings */; };
+		2581F39416E15E1F00C5B391 /* NotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2581F39316E15E1F00C5B391 /* NotesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2581F38A16E15E1F00C5B391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2581F35116E15E1E00C5B391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2581F35816E15E1E00C5B391;
+			remoteInfo = Notes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2581F35916E15E1E00C5B391 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2581F35C16E15E1E00C5B391 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2581F35E16E15E1E00C5B391 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2581F36016E15E1E00C5B391 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2581F36416E15E1E00C5B391 /* Notes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Notes-Info.plist"; sourceTree = "<group>"; };
+		2581F36616E15E1E00C5B391 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2581F36816E15E1E00C5B391 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2581F36A16E15E1E00C5B391 /* Notes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Notes-Prefix.pch"; sourceTree = "<group>"; };
+		2581F36B16E15E1E00C5B391 /* BMWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMWAppDelegate.h; sourceTree = "<group>"; };
+		2581F36C16E15E1E00C5B391 /* BMWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMWAppDelegate.m; sourceTree = "<group>"; };
+		2581F36E16E15E1E00C5B391 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2581F37016E15E1E00C5B391 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2581F37216E15E1E00C5B391 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2581F37516E15E1E00C5B391 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2581F37816E15E1E00C5B391 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2581F37A16E15E1E00C5B391 /* BMWMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMWMasterViewController.h; sourceTree = "<group>"; };
+		2581F37B16E15E1E00C5B391 /* BMWMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMWMasterViewController.m; sourceTree = "<group>"; };
+		2581F37D16E15E1E00C5B391 /* BMWDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMWDetailViewController.h; sourceTree = "<group>"; };
+		2581F37E16E15E1E00C5B391 /* BMWDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMWDetailViewController.m; sourceTree = "<group>"; };
+		2581F38516E15E1F00C5B391 /* NotesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2581F38616E15E1F00C5B391 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2581F38E16E15E1F00C5B391 /* NotesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NotesTests-Info.plist"; sourceTree = "<group>"; };
+		2581F39016E15E1F00C5B391 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2581F39216E15E1F00C5B391 /* NotesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotesTests.h; sourceTree = "<group>"; };
+		2581F39316E15E1F00C5B391 /* NotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2581F35616E15E1E00C5B391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2581F35D16E15E1E00C5B391 /* UIKit.framework in Frameworks */,
+				2581F35F16E15E1E00C5B391 /* Foundation.framework in Frameworks */,
+				2581F36116E15E1E00C5B391 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2581F38116E15E1F00C5B391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2581F38716E15E1F00C5B391 /* SenTestingKit.framework in Frameworks */,
+				2581F38816E15E1F00C5B391 /* UIKit.framework in Frameworks */,
+				2581F38916E15E1F00C5B391 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2581F35016E15E1E00C5B391 = {
+			isa = PBXGroup;
+			children = (
+				2581F36216E15E1E00C5B391 /* Notes */,
+				2581F38C16E15E1F00C5B391 /* NotesTests */,
+				2581F35B16E15E1E00C5B391 /* Frameworks */,
+				2581F35A16E15E1E00C5B391 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2581F35A16E15E1E00C5B391 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2581F35916E15E1E00C5B391 /* Notes.app */,
+				2581F38516E15E1F00C5B391 /* NotesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2581F35B16E15E1E00C5B391 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2581F35C16E15E1E00C5B391 /* UIKit.framework */,
+				2581F35E16E15E1E00C5B391 /* Foundation.framework */,
+				2581F36016E15E1E00C5B391 /* CoreGraphics.framework */,
+				2581F38616E15E1F00C5B391 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2581F36216E15E1E00C5B391 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				2581F36B16E15E1E00C5B391 /* BMWAppDelegate.h */,
+				2581F36C16E15E1E00C5B391 /* BMWAppDelegate.m */,
+				2581F37416E15E1E00C5B391 /* MainStoryboard_iPhone.storyboard */,
+				2581F37716E15E1E00C5B391 /* MainStoryboard_iPad.storyboard */,
+				2581F37A16E15E1E00C5B391 /* BMWMasterViewController.h */,
+				2581F37B16E15E1E00C5B391 /* BMWMasterViewController.m */,
+				2581F37D16E15E1E00C5B391 /* BMWDetailViewController.h */,
+				2581F37E16E15E1E00C5B391 /* BMWDetailViewController.m */,
+				2581F36316E15E1E00C5B391 /* Supporting Files */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		2581F36316E15E1E00C5B391 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2581F36416E15E1E00C5B391 /* Notes-Info.plist */,
+				2581F36516E15E1E00C5B391 /* InfoPlist.strings */,
+				2581F36816E15E1E00C5B391 /* main.m */,
+				2581F36A16E15E1E00C5B391 /* Notes-Prefix.pch */,
+				2581F36E16E15E1E00C5B391 /* Default.png */,
+				2581F37016E15E1E00C5B391 /* Default@2x.png */,
+				2581F37216E15E1E00C5B391 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2581F38C16E15E1F00C5B391 /* NotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				2581F39216E15E1F00C5B391 /* NotesTests.h */,
+				2581F39316E15E1F00C5B391 /* NotesTests.m */,
+				2581F38D16E15E1F00C5B391 /* Supporting Files */,
+			);
+			path = NotesTests;
+			sourceTree = "<group>";
+		};
+		2581F38D16E15E1F00C5B391 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2581F38E16E15E1F00C5B391 /* NotesTests-Info.plist */,
+				2581F38F16E15E1F00C5B391 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2581F35816E15E1E00C5B391 /* Notes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2581F39716E15E1F00C5B391 /* Build configuration list for PBXNativeTarget "Notes" */;
+			buildPhases = (
+				2581F35516E15E1E00C5B391 /* Sources */,
+				2581F35616E15E1E00C5B391 /* Frameworks */,
+				2581F35716E15E1E00C5B391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notes;
+			productName = Notes;
+			productReference = 2581F35916E15E1E00C5B391 /* Notes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2581F38416E15E1F00C5B391 /* NotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2581F39A16E15E1F00C5B391 /* Build configuration list for PBXNativeTarget "NotesTests" */;
+			buildPhases = (
+				2581F38016E15E1F00C5B391 /* Sources */,
+				2581F38116E15E1F00C5B391 /* Frameworks */,
+				2581F38216E15E1F00C5B391 /* Resources */,
+				2581F38316E15E1F00C5B391 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2581F38B16E15E1F00C5B391 /* PBXTargetDependency */,
+			);
+			name = NotesTests;
+			productName = NotesTests;
+			productReference = 2581F38516E15E1F00C5B391 /* NotesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2581F35116E15E1E00C5B391 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BMW;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Benjamin Wang";
+			};
+			buildConfigurationList = 2581F35416E15E1E00C5B391 /* Build configuration list for PBXProject "Notes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2581F35016E15E1E00C5B391;
+			productRefGroup = 2581F35A16E15E1E00C5B391 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2581F35816E15E1E00C5B391 /* Notes */,
+				2581F38416E15E1F00C5B391 /* NotesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2581F35716E15E1E00C5B391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2581F36716E15E1E00C5B391 /* InfoPlist.strings in Resources */,
+				2581F36F16E15E1E00C5B391 /* Default.png in Resources */,
+				2581F37116E15E1E00C5B391 /* Default@2x.png in Resources */,
+				2581F37316E15E1E00C5B391 /* Default-568h@2x.png in Resources */,
+				2581F37616E15E1E00C5B391 /* MainStoryboard_iPhone.storyboard in Resources */,
+				2581F37916E15E1E00C5B391 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2581F38216E15E1F00C5B391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2581F39116E15E1F00C5B391 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2581F38316E15E1F00C5B391 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2581F35516E15E1E00C5B391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2581F36916E15E1E00C5B391 /* main.m in Sources */,
+				2581F36D16E15E1E00C5B391 /* BMWAppDelegate.m in Sources */,
+				2581F37C16E15E1E00C5B391 /* BMWMasterViewController.m in Sources */,
+				2581F37F16E15E1E00C5B391 /* BMWDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2581F38016E15E1F00C5B391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2581F39416E15E1F00C5B391 /* NotesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2581F38B16E15E1F00C5B391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2581F35816E15E1E00C5B391 /* Notes */;
+			targetProxy = 2581F38A16E15E1F00C5B391 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2581F36516E15E1E00C5B391 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2581F36616E15E1E00C5B391 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2581F37416E15E1E00C5B391 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2581F37516E15E1E00C5B391 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2581F37716E15E1E00C5B391 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2581F37816E15E1E00C5B391 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2581F38F16E15E1F00C5B391 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2581F39016E15E1F00C5B391 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2581F39516E15E1F00C5B391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2581F39616E15E1F00C5B391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2581F39816E15E1F00C5B391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Notes/Notes-Prefix.pch";
+				INFOPLIST_FILE = "Notes/Notes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2581F39916E15E1F00C5B391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Notes/Notes-Prefix.pch";
+				INFOPLIST_FILE = "Notes/Notes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2581F39B16E15E1F00C5B391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Notes.app/Notes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Notes/Notes-Prefix.pch";
+				INFOPLIST_FILE = "NotesTests/NotesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2581F39C16E15E1F00C5B391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Notes.app/Notes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Notes/Notes-Prefix.pch";
+				INFOPLIST_FILE = "NotesTests/NotesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2581F35416E15E1E00C5B391 /* Build configuration list for PBXProject "Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2581F39516E15E1F00C5B391 /* Debug */,
+				2581F39616E15E1F00C5B391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2581F39716E15E1F00C5B391 /* Build configuration list for PBXNativeTarget "Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2581F39816E15E1F00C5B391 /* Debug */,
+				2581F39916E15E1F00C5B391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2581F39A16E15E1F00C5B391 /* Build configuration list for PBXNativeTarget "NotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2581F39B16E15E1F00C5B391 /* Debug */,
+				2581F39C16E15E1F00C5B391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2581F35116E15E1E00C5B391 /* Project object */;
+}
