@@ -25,6 +25,8 @@
 		2581F38916E15E1F00C5B391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2581F35E16E15E1E00C5B391 /* Foundation.framework */; };
 		2581F39116E15E1F00C5B391 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2581F38F16E15E1F00C5B391 /* InfoPlist.strings */; };
 		2581F39416E15E1F00C5B391 /* NotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2581F39316E15E1F00C5B391 /* NotesTests.m */; };
+		2581F3F816EC569A00C5B391 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2581F39E16E15ECE00C5B391 /* MapKit.framework */; };
+		2581F3F916EC56A600C5B391 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2581F3A016E15ED500C5B391 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,18 @@
 			remoteInfo = Notes;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2581F39D16E15E7F00C5B391 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2581F35916E15E1E00C5B391 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +77,8 @@
 		2581F39016E15E1F00C5B391 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2581F39216E15E1F00C5B391 /* NotesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotesTests.h; sourceTree = "<group>"; };
 		2581F39316E15E1F00C5B391 /* NotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesTests.m; sourceTree = "<group>"; };
+		2581F39E16E15ECE00C5B391 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2581F3A016E15ED500C5B391 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2581F3F916EC56A600C5B391 /* CoreLocation.framework in Frameworks */,
+				2581F3F816EC569A00C5B391 /* MapKit.framework in Frameworks */,
 				2581F35D16E15E1E00C5B391 /* UIKit.framework in Frameworks */,
 				2581F35F16E15E1E00C5B391 /* Foundation.framework in Frameworks */,
 				2581F36116E15E1E00C5B391 /* CoreGraphics.framework in Frameworks */,
@@ -111,6 +129,8 @@
 		2581F35B16E15E1E00C5B391 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2581F3A016E15ED500C5B391 /* CoreLocation.framework */,
+				2581F39E16E15ECE00C5B391 /* MapKit.framework */,
 				2581F35C16E15E1E00C5B391 /* UIKit.framework */,
 				2581F35E16E15E1E00C5B391 /* Foundation.framework */,
 				2581F36016E15E1E00C5B391 /* CoreGraphics.framework */,
@@ -178,6 +198,7 @@
 				2581F35516E15E1E00C5B391 /* Sources */,
 				2581F35616E15E1E00C5B391 /* Frameworks */,
 				2581F35716E15E1E00C5B391 /* Resources */,
+				2581F39D16E15E7F00C5B391 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -474,6 +495,7 @@
 				2581F39916E15E1F00C5B391 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2581F39A16E15E1F00C5B391 /* Build configuration list for PBXNativeTarget "NotesTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +504,7 @@
 				2581F39C16E15E1F00C5B391 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
